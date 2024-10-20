@@ -1,0 +1,330 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  background-color: #1B1961 ;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+}
+.header .logo {
+  color:white;
+  margin: 5px;
+
+
+}
+.header .logo i{
+  color: red;
+  font-size: 25px;
+  margin: 2px;
+}
+.header .logo span{
+  font-size: 25px;
+  font-family: "Autour One", system-ui;
+  margin-left: 10px;
+}
+.header .nav ul{
+  margin-right:50px ;
+  margin: 2px;
+  display: flex;
+  
+}
+.header .nav ul li{
+  list-style: none;
+}
+.header .nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: "Autour One", system-ui;  font-family: "Autour One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin-right: 50px;
+  margin-top:10px ;
+}
+/* ----------------------------------end------------------------------------------------- */
+.main{
+  height: 900px;
+  background: linear-gradient(269.42deg, rgba(255, 255, 255, 0.75) 1.4%, rgba(104, 193, 232, 0.75) 100.44%) ;
+  padding: 20px;
+  display: flex;
+ 
+
+}
+.main .main22{
+  width: 100%;
+  margin-left: -440px;
+}
+.main .main22 h1{
+  margin-top: 100px;
+  margin-left: 505px;
+  font-family: "Autour One", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 48px;
+
+}
+.main .main22 .form{
+  background: #65B5D8;
+  margin-top: 20px;
+  height: 510px;
+  width: 42%;
+  margin-left: 510px;
+  border-radius: 8px;
+  box-shadow: 0px 15px 4px 0px #0000004D;
+  padding: 20px;
+  /* position: relative; */
+  
+}
+.main .main22 .form form{ 
+  padding: 10px;
+  height: 100px;
+  margin-top: 40px;
+  width: 120%;
+
+
+}
+.main .main22 .form form label{
+  font-family: "Autour One", system-ui;
+  font-style: normal;
+  font-size: 17px;
+  position: relative;
+  font-weight: 400px;
+  margin-top: 90px;
+  margin-right: 200px;
+  
+}
+.main .main22 .form form  input{
+  padding: 8px 42px;
+  margin-left: 60px;
+  border-radius: 8px;
+  border: none;
+ border-style: none;
+ border-inline-color: white;
+  /* margin-bottom: -90px; */
+ 
+ 
+
+}
+.main .main22 .form form .div{
+
+  margin-left: 82px;
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 24px;
+  margin-bottom: 10px;
+  /* left: 15px; */
+  
+}
+
+.main .main22 .form form a{
+
+  position: relative;
+ bottom: 30px;
+  padding: 10px 85px;
+  left: 80px;
+  background-color: #1B1961;
+  text-decoration: none;
+  color: white;
+  font-family: "Autour One", system-ui;
+  font-style: normal;
+  font-size: 20px;
+  border-radius: 12px;
+}
+.main .main22 .form  .a{
+
+  position: relative;
+ top: 385px;
+
+
+  padding: 15px 130px;
+  /* left: 2px; */
+  right: 25px;
+  background-color: #1B1961;
+  text-decoration: none;
+  color: white;
+  font-family: "Autour One", system-ui;
+
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+
+/* ------------------------------------------main2----------------------------------------------------- */
+.section2{
+  display: block;
+}
+.section2 .main2{
+  display: flex;
+
+  
+}
+.main 
+.section2 h2{
+  font-size: 39px;
+  margin-top: 80px;
+  margin-left: -60px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Autour One", system-ui;
+  font-style: normal;
+  margin-bottom: 30px;
+
+}
+.main .section2 .box{
+ display: flex;
+ background: #65B5D8;
+width: 38%;
+height: 145px;
+margin-left: -955px;
+padding: 15px;
+border-radius: 18px;
+margin: 70px;
+/* margin-top: 200px; */
+margin-right: 60px;
+margin-top: -20px;
+
+}
+
+.main .section2 .box img{
+  width: 80px;
+}
+.main .section2 .box .tit h3{
+  margin-top: 35px;
+  font-size: 30px;
+  font-family: "Autour One", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 5px;
+  /* margin-left: -20px; */
+
+}
+.main .section2 .box .tit{
+ padding: 15px;
+}
+.main .section2 .box .tit  p{
+  font-size: 28px;
+  font-family: "Autour One", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  margin-right: 50px;
+
+ 
+} 
+.main .section2 .box .tit p a{
+text-decoration: none;
+color: black;
+}
+/* ---------------------------------------------------------------------------------------- */
+.main .section2 .box1{
+ 
+  background: #65B5D8;
+ width: 65%;
+ height: 175px;
+ margin-left: -955px;
+ padding: 20px;
+ border-radius: 18px;
+ margin: 70px;
+ /* margin-top: 200px; */
+ margin-right: 60px;
+ margin-top: 20px;
+ 
+ }
+ .main .section2 .box1 h2{
+  margin-top: -90px;
+ }
+ .main .section2 .main2 .box1 img{
+ width: 500px;
+ height: 150px;
+  padding: 10px 20px;
+ margin-bottom: -20px;
+ margin-top: -35px;
+
+ }
+
+
+
+
+
+ .main .section2 .box1 img{
+   width: 110px;
+ }
+ .main .section2 .box1 .tit h3{
+   margin-top: 35px;
+   font-size: 30px;
+   font-family: "Autour One", system-ui;
+   font-weight: bold;
+   font-style: normal;
+   margin-left: -110px;
+ }
+ .main .section2 .box1 .tit{
+  padding: 15px;
+ }
+ .main .section2 .box1 .tit  p{
+   font-size: 28px;
+   font-family: "Autour One", system-ui;
+   font-weight: bold;
+   font-style: normal;
+   margin-right: 50px;
+ 
+  
+ } 
+ .main .section2 .box1 .tit p a{
+ text-decoration: none;
+ color: black;
+ }
+
+
+
+
+.main .b{
+  position: relative;
+  top: -30px;
+ 
+ 
+   padding: 15px 100px;
+   left: 150px;
+
+   background-color: #1B1961;
+   text-decoration: none;
+   color: white;
+   font-family: "Autour One", system-ui;
+ 
+   font-size: 15px;
+   border-radius: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------footer------------------------------------- */
+.footer{
+  background-color: #1B1961 ;
+  padding: 15px;
+}
+.footer h4{
+  text-align: center;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.741);
+  font-family: "Autour One", system-ui;
+  /* font-weight: bold; */
+  font-style: normal;
+  /* margin-right: 50px; */
+}
